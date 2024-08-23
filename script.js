@@ -28,6 +28,7 @@ let removeTransaction = function(description){
     })
 };
 
+//Function Calls
 addIncome(5, 'Cash Deposit', 'income')
 
 addExpense(-5, 'cards', 'expense');
@@ -36,4 +37,6 @@ removeTransaction('cards');
 
 console.log(balance)
 let balanceTotal = viewBalance();
+
+//Resulting Balance
 console.log(`Your balance is $${balanceTotal}`);
